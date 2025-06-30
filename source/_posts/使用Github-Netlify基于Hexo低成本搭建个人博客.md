@@ -36,7 +36,7 @@ Hexo ，一个快速、简介且高效的博客框架，可以使用Markdown解�
 
 登录[Nodejs](https://nodejs.org/zh-cn/download)官网
 
-![image-20250630102034047](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630102034047.png)
+![image-20250630102034047](D:\blog\myblog\source\images\page1img\image-20250630102034047.png)
 
 选择windows安装程序(.msi)，下载完成后进行安装。
 
@@ -94,7 +94,7 @@ npm install
 
 接下来需要在编辑器里面打开myblog文件夹，我这里以Trae来示例
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630125356651.png" alt="image-20250630125356651" style="zoom: 67%;" />
+<img src="D:\blog\myblog\source\images\page1img\image-20250630125356651.png" alt="image-20250630125356651" style="zoom:67%;" />
 
 > Trae 国内首款 AI 原生 IDE，专为中国开发者打造，让 AI 深度融入编程，带来比插件更流畅、精准的开发体验。通过强大的上下文分析，Trae 可以实时预测和续写你的代码片段，快速无缝扩展你未完成的代码，数倍提升你的编码效率。
 
@@ -106,7 +106,7 @@ npm install
 >
 >`subtitle: ''` 这个是网站的副标题，效果类似这样：
 >
-><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630130750924.png" alt="image-20250630130750924" style="zoom:50%;" />
+><img src="D:\blog\myblog\source\images\page1img\image-20250630130750924.png" alt="image-20250630130750924" style="zoom:50%;" />
 >
 >`author: John Doe`这个是作者的名字，可以修改为你自己的名字
 >
@@ -118,9 +118,7 @@ npm install
 
 上面的配置结束后，效果如图所示：
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630132544299.png" alt="image-20250630132544299" style="zoom: 67%;" />
-
-
+<img src="D:\blog\myblog\source\images\page1img\image-20250630132544299.png" alt="image-20250630132544299" style="zoom:67%;" />
 
 
 
@@ -146,7 +144,7 @@ feed:
 
 接下来去 Github 新建一个仓库，点击`new`按钮
 
-![image-20250630140128610](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630140128610.png)
+![image-20250630140128610](D:\blog\myblog\source\images\page1img\image-20250630140128610.png)
 
 `Repository name`是仓库名，可以随便写，这里推荐用`Hexo-Scoure`，这样看起来好看而且还适合快速寻找，`Description`是仓库简介，可以留空，按自己要求来写就好了，仓库标记为public仓库，以免出现其他意外。
 
@@ -188,21 +186,21 @@ git push -u origin main #推送文件
 
 推送完成后跳转到你的Github仓库会看到已经上传成功了
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630163701280.png" alt="image-20250630163701280" style="zoom:67%;" />
+<img src="D:\blog\myblog\source\images\page1img\image-20250630163701280.png" alt="image-20250630163701280" style="zoom:67%;" />
 
 # 3.将博客部署到Netlify
 
 登录Netlify控制台，选择`Import from git`
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630165407717.png" alt="image-20250630165407717" style="zoom:67%;" />
+<img src="D:\blog\myblog\source\images\page1img\image-20250630165407717.png" alt="image-20250630165407717" style="zoom:67%;" />
 
 选择`github`
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630165443476.png" alt="image-20250630165443476" style="zoom:67%;" />
+<img src="D:\blog\myblog\source\images\page1img\image-20250630165443476.png" alt="image-20250630165443476" style="zoom:67%;" />
 
 接下来会显示授权，授权完成后，选择你创建的仓库，之后进行配置
 
-![image-20250630170434716](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630170434716.png)
+![image-20250630170434716](D:\blog\myblog\source\images\page1img\image-20250630170434716.png)
 
 这里填写你的项目名称，同时也会是你的网页地址`Project name.netlify.app`
 
@@ -210,7 +208,7 @@ git push -u origin main #推送文件
 
 这样项目就开始部署了，部署完成后点击`view project deploy`就可以预览你的博客啦:smile:
 
-![image-20250630170744592](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630170744592.png)
+<img src="D:\blog\myblog\source\images\page1img\image-20250630170744592.png" alt="image-20250630170744592" style="zoom:67%;" />
 
 # 4.配置主题
 
@@ -222,17 +220,17 @@ git push -u origin main #推送文件
 
 `npm install hexo-theme-redefine@latest`
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630132902715.png" alt="image-20250630132902715" style="zoom: 67%;" />
+<img src="D:\blog\myblog\source\images\page1img\image-20250630132902715.png" alt="image-20250630132902715" style="zoom:67%;" />
 
 安装完成后，需要在`_config.yml`中将`theme:landscape`改为`theme:redefine`
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630133208202.png" alt="image-20250630133208202" style="zoom:67%;" />
+![image-20250630133208202](D:\blog\myblog\source\images\page1img\image-20250630133208202.png)
 
 > :bulb:题外话：下面的操作这里作者踩了个坑，直接修改了`hexo-theme-redefine`文件夹中的`_config.yml`文件,部署后网页的改动没有生效，后面查了操作文档才能正常部署。
 
 在根目录创建一个`_config.redefine.yml`文件
 
-![image-20250630135110295](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250630135110295.png)
+![image-20250630135110295](D:\blog\myblog\source\images\page1img\image-20250630135110295.png)
 
 并将以下代码复制进去**（注：里面部分代码需修改，可参考[快速开始 | Hexo Theme Redefine Docs](https://redefine-docs.ohevan.com/zh/getting-started)文档，或者代码块中对应的网址）**
 
@@ -722,3 +720,8 @@ developer:
 
 ```
 
+到这里博客的部署就结束了~
+
+由于小亮还在尝试配置域名，后期会出一个域名配置教程
+
+感谢阅读🙏
