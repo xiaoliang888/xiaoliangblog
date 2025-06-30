@@ -1,7 +1,7 @@
 ---
 title:使用Github+Netlify基于Hexo低成本搭建一个个人博客
 date:2025-06-30 09:37:00
-tags:
+tags：
 ---
 
 # 1.前言
