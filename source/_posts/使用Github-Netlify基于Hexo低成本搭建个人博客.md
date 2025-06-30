@@ -36,7 +36,7 @@ Hexo ，一个快速、简介且高效的博客框架，可以使用Markdown解�
 
 登录[Nodejs](https://nodejs.org/zh-cn/download)官网
 
-![image-20250630102034047](\images\page1img\image-20250630102034047.png)
+<img src="\images\page1img\image-20250630102034047.png" alt="image-20250630102034047" style="zoom: 80%;" />
 
 选择windows安装程序(.msi)，下载完成后进行安装。
 
@@ -144,7 +144,7 @@ feed:
 
 接下来去 Github 新建一个仓库，点击`new`按钮
 
-![image-20250630140128610](\images\page1img\image-20250630140128610.png)
+<img src="\images\page1img\image-20250630140128610.png" alt="image-20250630140128610" style="zoom: 80%;" />
 
 `Repository name`是仓库名，可以随便写，这里推荐用`Hexo-Scoure`，这样看起来好看而且还适合快速寻找，`Description`是仓库简介，可以留空，按自己要求来写就好了，仓库标记为public仓库，以免出现其他意外。
 
@@ -224,13 +224,13 @@ git push -u origin main #推送文件
 
 安装完成后，需要在`_config.yml`中将`theme:landscape`改为`theme:redefine`
 
-![image-20250630133208202](\images\page1img\image-20250630133208202.png)
+<img src="\images\page1img\image-20250630133208202.png" alt="image-20250630133208202" style="zoom:80%;" />
 
 > :bulb:题外话：下面的操作这里作者踩了个坑，直接修改了`hexo-theme-redefine`文件夹中的`_config.yml`文件,部署后网页的改动没有生效，后面查了操作文档才能正常部署。
 
 在根目录创建一个`_config.redefine.yml`文件
 
-![image-20250630135110295](\images\page1img\image-20250630135110295.png)
+<img src="\images\page1img\image-20250630135110295.png" alt="image-20250630135110295" style="zoom: 80%;" />
 
 并将以下代码复制进去**（注：里面部分代码需修改，可参考[快速开始 | Hexo Theme Redefine Docs](https://redefine-docs.ohevan.com/zh/getting-started)文档，或者代码块中对应的网址）**
 
