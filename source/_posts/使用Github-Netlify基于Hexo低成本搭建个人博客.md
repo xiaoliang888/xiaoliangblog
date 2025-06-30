@@ -110,7 +110,7 @@ npm install
 >
 >`author: John Doe`这个是作者的名字，可以修改为你自己的名字
 >
->`language: zh-cn` 这里是网站的语言，默认为en
+>`language: zh-CN` 这里是网站的语言，默认为en
 >
 >`timezone: ''` 这个是时区设置，不填默认设置
 >
