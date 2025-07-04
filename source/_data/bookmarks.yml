@@ -1,0 +1,19 @@
+- category: 分类名称
+  icon: fa-folder # 分类的图标，使用 FontAwesome 图标
+  items:
+    - name: 书签名称
+      link: 链接地址 # 从 url 改为 link
+      description: 书签描述
+      image: 图标链接 # 从 icon 改为 image，用于显示网站图标
+ 
+- category: 工具
+  icon: fa-tools # 工具分类的图标
+  items:
+    - name: DeepSeek
+      link: https://chat.deepseek.com/ # 书签链接地址
+      description: 好用的AI工具
+      image: https://cdn.deepseek.com/logo.png?x-image-process=image%2Fresize%2Cw_828 # 网站图标地址
+    - name: Bilibili
+      link: https://www.bilibili.com/
+      description: 国内的视频平台
+      image: https://www.bilibili.com/favicon.ico
