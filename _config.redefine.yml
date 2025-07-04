@@ -205,6 +205,9 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
+    Bookmarks: #取名随意
+      path: /bookmarks 
+      icon: fa-solid fa-bookmark #图标  
     # Status: 
     #   path: https://status.ohevan.com/
     #   icon: fa-regular fa-chart-bar
@@ -400,9 +403,9 @@ footer:
   customize:
   # ICP record number. See https://beian.miit.gov.cn/
   icp:
-    enable: false # Whether to enable
-    number: # ICP record number
-    url: # ICP record url
+    enable: true # Whether to enable
+    number: 萌ICP备20259422号 # ICP record number
+    url: https://icp.gov.moe/?keyword=20259422 # ICP record url
 # FOOTER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
